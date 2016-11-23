@@ -29,7 +29,7 @@ public class DAO {
         Class.forName("com.mysql.jdbc.Driver");
         Connection conn = null;
 
-        conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/db_shopping?" + "user=root&password=&");
+        conn = DriverManager.getConnection("jdbc:mysql://localhost:8889/db_shopping?" + "user=root&password=root&");
 
         Statement statement = conn.createStatement();
 
@@ -45,7 +45,7 @@ public class DAO {
         Class.forName("com.mysql.jdbc.Driver");
         Connection conn = null;
 
-        conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/db_shopping?" + "user=root&password=&");
+        conn = DriverManager.getConnection("jdbc:mysql://localhost:8889/db_shopping?" + "user=root&password=root&");
 
         Statement statement = conn.createStatement();
 
@@ -67,7 +67,7 @@ public class DAO {
         Random rnd = new Random();
         int id_ticket = 1000 + rnd.nextInt(9000);
 
-        conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/db_shopping?" + "user=root&password=&");
+        conn = DriverManager.getConnection("jdbc:mysql://localhost:8889/db_shopping?" + "user=root&password=root&");
 
         Statement statement = conn.createStatement();
 
@@ -85,7 +85,7 @@ public class DAO {
         Class.forName("com.mysql.jdbc.Driver");
         Connection conn = null;
 
-        conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/db_shopping?" + "user=root&password=&");
+        conn = DriverManager.getConnection("jdbc:mysql://localhost:8889/db_shopping?" + "user=root&password=root&");
 
         Statement statement = conn.createStatement();
 

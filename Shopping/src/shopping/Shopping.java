@@ -25,7 +25,7 @@ public class Shopping {
         
        DAO dao = new DAO();
         //dao.getTicket("3588");
-        // dao.createLoja("CENTAURO LTDA", "CENTAURO", "0000000", "000000000", "ESPORTES", "1");
+         dao.createLoja("TESTE NP2 LTDA", "CENTAURO", "0000000", "000000000", "ESPORTES", "1");
        
     }
     
